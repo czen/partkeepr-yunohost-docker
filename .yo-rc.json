@@ -1,0 +1,18 @@
+{
+  "generator-dockerapp-yunohost": {
+    "beautifulName": "partkeepr",
+    "defaultPathOption": "",
+    "forceSecureAccess": true,
+    "secureAccessOption": false,
+    "adminUserOption": false,
+    "enDescription": "Parts inventory management system",
+    "frDescription": "Parts inventory management system",
+    "urlApp": "partkeepr.org",
+    "urlDockerHub": "https://hub.docker.com/r/mhubig/partkeepr/",
+    "authorName": "czen",
+    "authorEmail": "taccessviolation@gmail.com",
+    "idName": "partkeepr",
+    "reverseProxyProtocol": "http",
+    "scriptsLoadSave": false
+  }
+}
