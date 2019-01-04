@@ -10,7 +10,7 @@ containeroptions="--no-auth"
 
 iptables -t filter -N DOCKER
 
-docker run -d --name=$app --restart always $options $image $containeroptions 1>&2
+docker run -d --network="host" --name=$app --restart always $options $image $containeroptions 1>&2
 CR=$?
 
 echo $CR
