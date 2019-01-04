@@ -38,3 +38,9 @@ ynh_backup "$data_path"
 #=================================================
 
 ynh_backup "/etc/nginx/conf.d/$domain.d/$app.conf"
+
+#=================================================
+# BACKUP THE MYSQL DATABASE
+#=================================================
+
+ynh_mysql_dump_db "$db_name" > db.sql

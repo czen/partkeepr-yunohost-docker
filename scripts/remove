@@ -26,6 +26,13 @@ dockerapp_ynh_loadvariables
 dockerapp_ynh_rm
 
 #=================================================
+# REMOVE THE MYSQL DATABASE
+#=================================================
+
+# Remove a database if it exists, along with the associated user
+ynh_mysql_remove_db $db_user $db_name
+
+#=================================================
 # REMOVE APP MAIN DIR
 #=================================================
 
