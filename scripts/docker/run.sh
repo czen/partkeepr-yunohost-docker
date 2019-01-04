@@ -1,8 +1,8 @@
 #!/bin/bash
 
-[ "$architecture" == "amd64" ] && image=mhubig/partkeepr:latest
-[ "$architecture" == "i386" ]  && image=mhubig/partkeepr:latest
-#[ "$architecture" == "armhf" ] && mhubig/partkeepr:latest
+[ "$architecture" == "amd64" ] && image=czen/docker-partkeepr:latest
+[ "$architecture" == "i386" ]  && image=czen/docker-partkeepr:latest
+#[ "$architecture" == "armhf" ] && image=czen/docker-partkeepr:latest
 [ -z $image ] && ynh_die "Sorry, your $architecture architecture is not supported ..."
 
 # options="-p $port:80 -v $data_path/data:/data -v /var/run/docker.sock:/var/run/docker.sock"
