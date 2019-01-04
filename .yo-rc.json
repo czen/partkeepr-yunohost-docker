@@ -8,7 +8,7 @@
     "enDescription": "Parts inventory management system",
     "frDescription": "Parts inventory management system",
     "urlApp": "partkeepr.org",
-    "urlDockerHub": "https://hub.docker.com/r/mhubig/partkeepr/",
+    "urlDockerHub": "https://hub.docker.com/r/czen/docker-partkeepr",
     "authorName": "czen",
     "authorEmail": "taccessviolation@gmail.com",
     "idName": "partkeepr",
